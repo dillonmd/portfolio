@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+// Color Variables
+$blue: #150c2f;
+
+// Bulma Component Variables
+$body-background-color: $blue;
+$navbar-item-img-max-height: 128px;
+$navbar-padding-horizontal: 3.75rem;
+$navbar-item-hover-background-color: none;
+$navbar-item-hover-color: white;
+
+// Imports
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/form.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/layout/hero.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";
+
+// Main
+
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+#main {
+    background: url(http://www.transparenttextures.com/patterns/cartographer.png);
+}
+
+// Nav 
+
+#nav {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+#logo {
+    width: 100%;
+    max-width: 250px;
+}
