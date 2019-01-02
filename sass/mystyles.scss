@@ -5,7 +5,7 @@ $blue: #150c2f;
 
 // Bulma Component Variables
 $body-background-color: $blue;
-$navbar-item-img-max-height: 128px;
+$navbar-item-img-max-height: 48px;
 $navbar-padding-horizontal: 3.75rem;
 $navbar-item-hover-background-color: none;
 $navbar-item-hover-color: white;
@@ -36,16 +36,4 @@ html {
 
 #main {
     background: url(https://www.transparenttextures.com/patterns/cartographer.png);
-}
-
-// Nav 
-
-#nav {
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-}
-
-#logo {
-    width: 100%;
-    max-width: 250px;
 }

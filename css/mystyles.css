@@ -3244,7 +3244,7 @@ a.navbar-item,
   flex-grow: 0;
   flex-shrink: 0; }
   .navbar-item img {
-    max-height: 128px; }
+    max-height: 48px; }
   .navbar-item.has-dropdown {
     padding: 0; }
   .navbar-item.is-expanded {
@@ -3997,12 +3997,4 @@ html {
   box-sizing: inherit; }
 
 #main {
-  background: url(http://www.transparenttextures.com/patterns/cartographer.png); }
-
-#nav {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem; }
-
-#logo {
-  width: 100%;
-  max-width: 250px; }
+  background: url(https://www.transparenttextures.com/patterns/cartographer.png); }
