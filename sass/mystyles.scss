@@ -9,6 +9,7 @@ $navbar-item-img-max-height: 48px;
 $navbar-padding-horizontal: 3.75rem;
 $navbar-item-hover-background-color: none;
 $navbar-item-hover-color: white;
+$navbar-background-color: $blue;
 
 // Imports
 @import "../node_modules/bulma/sass/utilities/_all.sass";
@@ -37,3 +38,4 @@ html {
 #main {
     background: url(https://www.transparenttextures.com/patterns/cartographer.png);
 }
+
