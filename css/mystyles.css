@@ -155,7 +155,7 @@ th {
   text-align: left; }
 
 html {
-  background-color: #150c2f;
+  background-color: white;
   font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -3999,11 +3999,21 @@ html {
 body {
   font-family: 'Source Sans Pro', sans-serif; }
 
+#hero {
+  background: #150c2f; }
+
 #title {
-  font-weight: 400; }
+  font-weight: 400;
+  animation-name: moveInLeft;
+  animation-duration: 1.5s; }
+
+#subtitle {
+  animation-name: moveInRight;
+  animation-duration: 1.5s; }
 
 #skills {
-  background: white; }
+  background: white;
+  height: 100vh; }
 
 #skills h1 {
   font-size: 4rem;
@@ -4012,5 +4022,34 @@ body {
 
 #skills h2 {
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   text-align: center; }
+
+#buttons {
+  display: block;
+  position: absolute;
+  left: 52%;
+  transform: translate(-52%); }
+
+#buttons a {
+  margin: 15px; }
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px); }
+  80% {
+    transform: translateX(20px); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px); }
+  80% {
+    transform: translateX(-20px); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
