@@ -29,6 +29,7 @@ $button-text-color: $primary;
 html {
     box-sizing: border-box;
     font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 
 *,
@@ -58,7 +59,8 @@ body {
 
 #skills {
     background: white;
-    height: 100vh;
+    height: 100%;
+    margin-bottom: 150px;
 }
 
 #skills h1 {
@@ -69,13 +71,14 @@ body {
 
 #skills h2 {
     padding-top: 20px;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
     text-align: center;
 }
 
 #buttons {
     display: block;
     position: absolute;
+    padding-bottom: 150px;
     left: 53%;
     transform: translate(-50%);
 }
@@ -84,9 +87,21 @@ body {
     margin: 15px;
 }
 
+#projects {
+    background: $blue;
+    height: 100vh;
+}
+
+#projects h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
 // Animations
 
-// Title 
+// Title Animation
 
 @keyframes moveInLeft {
     0% {

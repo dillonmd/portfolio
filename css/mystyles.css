@@ -3991,7 +3991,8 @@ a.navbar-item,
 
 html {
   box-sizing: border-box;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  scroll-behavior: smooth; }
 
 *, *::before, *::after {
   box-sizing: inherit; }
@@ -4013,7 +4014,8 @@ body {
 
 #skills {
   background: white;
-  height: 100vh; }
+  height: 100%;
+  margin-bottom: 150px; }
 
 #skills h1 {
   font-size: 4rem;
@@ -4022,17 +4024,28 @@ body {
 
 #skills h2 {
   padding-top: 20px;
-  padding-bottom: 150px;
+  padding-bottom: 50px;
   text-align: center; }
 
 #buttons {
   display: block;
   position: absolute;
+  padding-bottom: 150px;
   left: 53%;
   transform: translate(-50%); }
 
 #buttons a {
   margin: 15px; }
+
+#projects {
+  background: #150c2f;
+  height: 100vh; }
+
+#projects h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  color: white; }
 
 @keyframes moveInLeft {
   0% {
