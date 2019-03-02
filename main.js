@@ -13,7 +13,7 @@ goodnotgreat.onclick = function() {
 }
 
 fourfins.onclick = function() {
-  window.location.href = "http://4finsdownriggerweights.com";
+  window.location.href = "http://www.4finsdownriggerweights.com";
 }
 
 
