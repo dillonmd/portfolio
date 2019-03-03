@@ -3992,7 +3992,8 @@ a.navbar-item,
 html {
   box-sizing: border-box;
   font-family: sans-serif;
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  background-color: #150c2f; }
 
 *, *::before, *::after {
   box-sizing: inherit; }
@@ -4015,7 +4016,8 @@ body {
 #skills {
   background: white;
   height: 100%;
-  margin-bottom: 150px; }
+  margin-bottom: 150px;
+  overflow: inherit; }
 
 #skills h1 {
   font-size: 4rem;
@@ -4028,9 +4030,7 @@ body {
   text-align: center; }
 
 #buttons {
-  display: block;
-  position: absolute;
-  padding-bottom: 150px;
+  position: relative;
   left: 53%;
   transform: translate(-50%); }
 
@@ -4050,13 +4050,14 @@ body {
 .cards {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 10%; }
+  padding-top: 5%; }
 
 .cards p {
   font-size: 1.2rem; }
 
 .cards h2 {
-  font-size: 2rem; }
+  font-size: 2rem;
+  font-weight: 700; }
 
 .card {
   margin: 1rem;
