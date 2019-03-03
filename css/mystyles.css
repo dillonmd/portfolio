@@ -4031,8 +4031,9 @@ body {
 
 #buttons {
   position: relative;
-  left: 53%;
-  transform: translate(-50%); }
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 #buttons a {
   margin: 15px; }
